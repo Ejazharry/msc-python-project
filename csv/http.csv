@@ -1,0 +1,9 @@
+variable,value
+Include the latest available Apache version,2.4.0
+Include the server token,ServerTokens Prod
+Include Server Signature,ServerSignature Off
+Directory Listing,Options -Indexes
+Include option for FileETag,FileETag None
+Include on or off for trace info,TraceEnable off
+Custom port for Apache,9999
+limitmethods,    <LimitExcept GET POST HEAD>,    deny from all,    </LimitExcept>

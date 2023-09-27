@@ -1,0 +1,8 @@
+variable,value
+Include the latest version of MySQL,8.0,1
+Include the loop back address,bind-address=127.0.0.1
+localFile,local-infile=0
+skipDatabase,skip-show-database
+Custom port,9099
+generalLog,general_log=0
+passwordValidation,plugin-load-add=validate_password.so,validate_password=FORCE_PLUS_PERMANENT,validate_password_policy=MEDIUM,validate_password_check_user_name=1

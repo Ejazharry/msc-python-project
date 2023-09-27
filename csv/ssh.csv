@@ -1,0 +1,8 @@
+variable,value
+Include the latest available apache version,8.7,1
+Include yes or no for password authentication,no
+Include yes or no for RootLogin,no
+Include the latest protocol version,Protocol 2
+Include ideal timeout,180
+Include all the users that must be allowed to SSH,AllowUsers ejaz root
+Include maximum authentications an user can perform at single session,3
